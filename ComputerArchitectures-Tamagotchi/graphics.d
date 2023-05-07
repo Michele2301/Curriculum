@@ -1,0 +1,15 @@
+.\graphics.o: Graphics.c
+.\graphics.o: Graphics.h
+.\graphics.o: forme.h
+.\graphics.o: C:\Keil_v5\ARM\ARMCLANGv5\Bin\..\include\math.h
+.\graphics.o: GLCD/GLCD.h
+.\graphics.o: C:\Users\miche\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h
+.\graphics.o: C:\Users\miche\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h
+.\graphics.o: C:\Keil_v5\ARM\ARMCLANGv5\Bin\..\include\stdint.h
+.\graphics.o: C:\Users\miche\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\graphics.o: C:\Users\miche\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\graphics.o: C:\Users\miche\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\graphics.o: C:\Users\miche\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\graphics.o: C:\Users\miche\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h
+.\graphics.o: timer/timer.h
+.\graphics.o: Image-Reset.c
