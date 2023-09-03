@@ -1,0 +1,154 @@
+
+###
+GET http://localhost:3000/api/frontOffice
+Content-Type: application/json
+
+###
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+  "username": "admin@polito.it",
+  "password": "password"
+}
+###
+POST http://localhost:3000/api/logout
+
+###
+GET http://localhost:3000/api/user
+###
+GET http://localhost:3000/api/backOffice
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/backOffice/page/1
+Content-Type: application/json
+
+###
+POST http://localhost:3000/api/backOffice/page
+Content-Type: application/json
+
+{
+    "title": "test1",
+    "publicationDate": "2019-01-01",
+    "contents": [
+        {
+            "type": "header",
+            "content": "test1",
+            "position": 1
+        },
+        {
+            "type": "text",
+            "content": "test2",
+            "position": 2
+        }
+    ]
+}
+
+###
+PUT http://localhost:3000/api/backOffice/page/5
+Content-Type: application/json
+
+{
+    "title": "testPut",
+    "publicationDate": "2019-01-01"
+}
+
+###
+DELETE http://localhost:3000/api/backOffice/page/5
+Content-Type: application/json
+
+{
+  "title": "testPut",
+  "publicationDate": "2019-01-01"
+}
+
+###
+PUT http://localhost:3000/api/backOffice/page/4
+Content-Type: application/json
+
+{
+  "title": "testPut",
+  "publicationDate": "2019-01-01"
+}
+
+###
+PUT http://localhost:3000/api/backOffice/page/4/author
+Content-Type: application/json
+
+{
+  "authorEmail":"admin@polito.it"
+}
+
+
+
+###
+PUT http://localhost:3000/api/backOffice/setting/setWebTitle
+Content-Type: application/json
+
+{
+  "title": "test1"
+}
+
+
+
+
+###
+POST http://localhost:3000/api/backOffice/page/4/content
+Content-Type: application/json
+
+{
+  "type": "header",
+  "content": "test1",
+  "position": 1
+}
+
+
+###
+POST http://localhost:3000/api/backOffice/page/4/content
+Content-Type: application/json
+
+{
+  "type": "header",
+  "content": "test1",
+  "position": 1
+}
+
+###
+PUT http://localhost:3000/api/backOffice/page/4/content/4
+Content-Type: application/json
+
+{
+"type": "header",
+"content": "test2"
+}
+
+###
+DELETE http://localhost:3000/api/backOffice/page/4/content/4
+Content-Type: application/json
+
+{
+  "type": "header",
+  "content": "test2"
+}
+###
+
+###
+GET http://localhost:3000/api/frontOffice/setting/getWebTitle
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/backOffice/page/5/content
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/backOffice/page/5
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/backOffice/page/10
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/backOffice/users
+Content-Type: application/json
