@@ -1,0 +1,23 @@
+az acr repository show-manifests --name micheleferrerowebserver --repository webserver --detail
+This command has been deprecated and will be removed in a future release. Use 'acr manifest list-metadata' instead.
+[
+  {
+    "architecture": "amd64",
+    "changeableAttributes": {
+      "deleteEnabled": true,
+      "listEnabled": true,
+      "readEnabled": true,
+      "writeEnabled": true
+    },
+    "configMediaType": "application/vnd.docker.container.image.v1+json",
+    "createdTime": "2023-12-19T10:27:36.9905552Z",
+    "digest": "sha256:220fa473800cb1fad2a59fd10b578d87c27d36195f0c6f0777633dcb99440de8",
+    "imageSize": 72705549,
+    "lastUpdateTime": "2023-12-19T10:27:36.9905552Z",
+    "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+    "os": "linux",
+    "tags": [
+      "latest"
+    ]
+  }
+]

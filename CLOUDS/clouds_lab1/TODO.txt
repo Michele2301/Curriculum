@@ -1,0 +1,2 @@
+fix the link to the container to a DNS
+add the new cost
