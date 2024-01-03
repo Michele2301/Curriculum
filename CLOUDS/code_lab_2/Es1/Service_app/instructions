@@ -1,7 +1,0 @@
-We have to create a web app
-1) create the azure web app
-2) create the local git
-3) create app.py and requirements.txt (the dependencies)
-4) push
-5) add the port to which the container is erogating the service ex 5000 for flask (Setting with WEBSITE_PORT)
-6) add autoscaling

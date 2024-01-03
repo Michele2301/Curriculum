@@ -1,3 +1,0 @@
-Method,Name,Error,Occurrences
-GET,/numericalintegralservice/0/3.14159,"ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x....>, 'Connection to localhost timed out. (connect timeout=None)')",40
-GET,/numericalintegralservice/0/3.14159,"ConnectionResetError(104, 'Connection reset by peer')",139

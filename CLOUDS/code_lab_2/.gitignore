@@ -1,8 +1,0 @@
-# Ignore .vscode directory
-.vscode/
-
-# Ignore __pycache__ directories and their contents
-__pycache__/
-
-# Ignore desktop.ini files
-desktop.ini
