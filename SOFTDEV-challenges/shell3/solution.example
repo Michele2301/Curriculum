@@ -1,0 +1,4 @@
+ shopt -s histverify
+ while true; do nc -l 7000 | tar -xvf -; done
+ awk '{$1=$3="";}1' file
+ mplayer -rtsp-stream-over-tcp -user-agent QuickTime/7.6.4 http://trailers.apple.com/movies/HDmovie-h720p.mov
