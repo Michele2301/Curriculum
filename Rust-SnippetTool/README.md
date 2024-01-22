@@ -1,6 +1,12 @@
 # Rusty Capture
 Rusty Capture is a Cross-Platform screen-grabbing and post-processing utiliy. This application allows you to capture your screen, post-process the captured image, and save it in various formats. Written in Rust, this utility is designed to work on Windows, macOS, and Linux operating systems.
 
+# Team
+This project was done by:
+* [Michele Ferrero]
+* [Giulia Di Fede]
+* [Davide Fricano]
+
 # Features
  1. ### Platform Support
     Rusty Capture supports multiple desktop operating systems, ensuring compatibility across various platforms.
